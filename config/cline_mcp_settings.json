@@ -15,6 +15,11 @@
     "rea-agents": {
       "command": "rea-agents.cmd",
       "args": ["mcp"]
+    },
+
+    "scrapling_tools": {
+      "command": "cmd.exe",
+      "args": ["/c", "D:\\Program_boy\\Github\\ai-agent-env\\run_scrapling.bat"]
     }
   }
 }
