@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "github": {
+      "transport": {
+        "type": "streamableHttp",
+        "url": "https://api.githubcopilot.com/mcp/"
+      }
+    },
+
+    "aider_repo_manager": {
+      "command": "aider",
+      "args": ["--message", "Iniciando modo de analise MCP"]
+    },
+
+    "rea-agents": {
+      "command": "rea-agents.cmd",
+      "args": ["mcp"]
+    }
+  }
+}
