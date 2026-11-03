@@ -1,0 +1,21 @@
+[project]
+name = "ai-agent-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "André Burger", email = "andreburger.furg@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "aider-chat>=0.86.2",
+    "mcp>=1.30.0",
+    "scrapling>=0.4.3",
+]
+
+[project.scripts]
+ai-agent-env = "ai_agent_env:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
